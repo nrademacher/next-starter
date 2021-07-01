@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>RS Demo Fashion</title>
+        <title>Next Starter</title>
       </Head>
       <div className="subpixel-antialiased optimize-legibility text-gray-9">
         <Component {...pageProps} />
