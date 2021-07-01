@@ -19,8 +19,8 @@
     "test": "yarn serve:test 'cypress open'",
     "test:headless": "yarn serve:test 'cypress run'",
     "serve:test": "start-server-and-test 'yarn start' http://localhost:3000",
-    "lint": "eslint --ignore-path .gitignore \"./**/*.+(ts|js|tsx)\"",
-    "format": "prettier --ignore-path .gitignore \"./**/*.+(ts|js|tsx)\" --write",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "postinstall": "husky install"
   },
   "lint-staged": {
@@ -40,14 +40,14 @@
     "tailwindcss": "latest"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "3.9.7",
+    "@cypress/code-coverage": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "autoprefixer": "latest",
-    "cypress": "7.6.0",
+    "cypress": "latest",
     "eslint": "latest",
     "eslint-config-airbnb": "latest",
     "eslint-config-next": "latest",
@@ -62,7 +62,7 @@
     "lint-staged": "latest",
     "postcss": "latest",
     "prettier": "latest",
-    "start-server-and-test": "1.12.5",
+    "start-server-and-test": "latest",
     "typescript": "latest"
   }
 }
