@@ -18,19 +18,8 @@ module.exports = {
       md: '768px',
       lg: '992px',
       xl: '1200px',
-      // xxl: '1400px',
     },
-    extend: {
-      animation: {
-        'spin-slow': 'spin 2.5s linear infinite',
-      },
-      boxShadow: {
-        card: 'rgba(0, 0, 0, 0.08) 0px 10px 24px 0px',
-        business: `${openColor.blue[6]} 0px 10px 24px 0px`,
-        personal: `${openColor.grape[6]} 0px 10px 24px 0px`,
-        wildcard: `${openColor.yellow[6]} 0px 10px 24px 0px`,
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},
