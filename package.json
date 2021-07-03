@@ -27,7 +27,8 @@
   "lint-staged": {
     "./**/*.{ts,js,jsx,tsx}": [
       "yarn lint --fix",
-      "yarn format"
+      "yarn format",
+      "yarn test:unit"
     ]
   },
   "dependencies": {
@@ -49,6 +50,7 @@
     "@typescript-eslint/parser": "latest",
     "autoprefixer": "latest",
     "babel-jest": "latest",
+    "babel-plugin-istanbul": "6.0.0",
     "cypress": "latest",
     "eslint": "latest",
     "eslint-config-airbnb": "latest",

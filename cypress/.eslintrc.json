@@ -3,7 +3,7 @@
   "parserOptions": {
     "project": "./cypress/tsconfig.json"
   },
-  "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
+  "extends": ["airbnb", "prettier", "next", "next/core-web-vitals"],
   "rules": {
     "import/namespace": "off",
     "import/no-extraneous-dependencies": [
