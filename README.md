@@ -1,6 +1,6 @@
 # Next Starter
 
-A Next.js starter tooled up with all the bells and whistles, including:
+A Next.js starter tooled up with industry-standard bells and whistles, including:
 
 - TypeScript
 - Linting: ESLint, stylelint, commitlint
