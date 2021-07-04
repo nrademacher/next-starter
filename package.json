@@ -16,7 +16,7 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",
-    "test:unit": "jest",
+    "test:unit": "jest --passWithNoTests",
     "test:e2e": "yarn serve:test:e2e 'cypress open'",
     "test:e2e:headless": "yarn serve:test:e2e 'cypress run'",
     "serve:test:e2e": "start-server-and-test 'yarn start' http://localhost:3000",
