@@ -22,8 +22,7 @@
     "serve:test:e2e": "start-server-and-test 'yarn start' http://localhost:3000",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky install",
-    "commit": "cz"
+    "postinstall": "husky install"
   },
   "lint-staged": {
     "./**/*.{ts,js,jsx,tsx}": [
@@ -55,9 +54,7 @@
     "autoprefixer": "latest",
     "babel-jest": "latest",
     "babel-plugin-istanbul": "6.0.0",
-    "commitizen": "4.2.4",
     "cypress": "latest",
-    "cz-conventional-changelog": "3.3.0",
     "eslint": "latest",
     "eslint-config-airbnb": "latest",
     "eslint-config-next": "latest",
