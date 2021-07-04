@@ -1,6 +1,6 @@
 {
   "name": "next-starter",
-  "description": "A Next.js starter to bootstrap front-end projects",
+  "description": "A comprehensive Next.js starter template",
   "version": "1.0.0",
   "private": true,
   "author": "Nikolay Rademacher",
@@ -22,14 +22,16 @@
     "serve:test:e2e": "start-server-and-test 'yarn start' http://localhost:3000",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "commit": "cz"
   },
   "lint-staged": {
     "./**/*.{ts,js,jsx,tsx}": [
       "yarn lint --fix",
       "yarn format",
       "yarn test:unit"
-    ]
+    ],
+    "*.{css, scss}": "stylelint --fix"
   },
   "dependencies": {
     "next": "latest",
@@ -51,7 +53,9 @@
     "autoprefixer": "latest",
     "babel-jest": "latest",
     "babel-plugin-istanbul": "6.0.0",
+    "commitizen": "4.2.4",
     "cypress": "latest",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "latest",
     "eslint-config-airbnb": "latest",
     "eslint-config-next": "latest",
@@ -70,6 +74,9 @@
     "postcss": "latest",
     "prettier": "latest",
     "start-server-and-test": "latest",
+    "stylelint": "13.13.1",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-standard": "22.0.0",
     "typescript": "latest"
   }
 }
