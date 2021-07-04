@@ -41,6 +41,8 @@
   },
   "devDependencies": {
     "@babel/core": "latest",
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
     "@cypress/code-coverage": "latest",
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
