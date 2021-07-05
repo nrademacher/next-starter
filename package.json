@@ -65,6 +65,7 @@
     "eslint-config-next": "latest",
     "eslint-config-prettier": "latest",
     "eslint-import-resolver-typescript": "latest",
+    "eslint-plugin-cypress": "2.11.3",
     "eslint-plugin-import": "latest",
     "eslint-plugin-jsx-a11y": "latest",
     "eslint-plugin-prettier": "latest",

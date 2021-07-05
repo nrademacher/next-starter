@@ -1,4 +1,4 @@
-context('Deploy', () => {
+export default describe('Deploy', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000');
   });
