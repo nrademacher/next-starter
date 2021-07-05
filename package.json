@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "dev": "next",
-    "build": "type-check && next build",
+    "build": "yarn type-check && next build",
     "start": "next start",
     "type-check": "tsc",
     "test:unit": "jest --passWithNoTests",
