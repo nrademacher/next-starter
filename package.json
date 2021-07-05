@@ -8,8 +8,7 @@
   "keywords": [
     "nextjs",
     "starter",
-    "typescript",
-    "tailwindcss"
+    "typescript"
   ],
   "scripts": {
     "dev": "next",
