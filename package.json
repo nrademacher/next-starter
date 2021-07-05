@@ -19,8 +19,9 @@
     "test:e2e": "yarn serve:test:e2e 'cypress open'",
     "test:e2e:headless": "yarn serve:test:e2e 'cypress run'",
     "serve:test:e2e": "start-server-and-test 'yarn start' http://localhost:3000",
-    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|jsx|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
+    "format:style": "prettier --ignore-path .gitignore \"src/**/*.+(css|scss)\" --write",
     "postinstall": "husky install"
   },
   "lint-staged": {
@@ -29,7 +30,10 @@
       "yarn format",
       "yarn test:unit"
     ],
-    "*.{css, scss}": "stylelint --fix"
+    "*.{css, scss}": [
+      "stylelint --fix",
+      "yarn format:style"
+    ]
   },
   "dependencies": {
     "next": "latest",
