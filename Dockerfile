@@ -1,4 +1,4 @@
-ARG node_version=14.15.4
+ARG node_version=14.17.0
 ARG node_image=node:${node_version}-alpine
 
 # STAGE 1
@@ -42,4 +42,4 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/package.json ./
 
 EXPOSE 3000
-CMD npm run start
+CMD yarn start

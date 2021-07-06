@@ -10,7 +10,7 @@ export const Main: React.FC = ({ children }) => (
 
     <p className={styles.description}>
       Get started by editing{` `}
-      <Code>pages/index.tsx</Code>
+      <Code>src/pages/index.tsx</Code>
     </p>
 
     {children}
