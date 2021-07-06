@@ -1,7 +1,6 @@
 {
   "baseUrl": "http://localhost:3000/",
   "chromeWebSecurity": false,
-  "fileServerFolder": "dist",
   "fixturesFolder": false,
   "video": false
 }
