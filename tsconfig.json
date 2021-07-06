@@ -14,7 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": "./src",
-    "types": ["cypress"],
+    "types": ["jest", "cypress"],
     "paths": {
       "@/*": ["./*"]
     }

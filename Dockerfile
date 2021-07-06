@@ -1,13 +1,45 @@
-FROM node:alpine
+ARG node_version=14.15.4
+ARG node_image=node:${node_version}-alpine
 
-RUN mkdir -p /usr/src
-WORKDIR /usr/src
+# STAGE 1
+FROM $node_image as builder
 
-COPY . /usr/src
+ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN yarn
+WORKDIR /app/
+
+COPY package.json yarn.lock ./
+RUN yarn install --frozen-lockfile --no-progress
+
+COPY next.config.js ./
+COPY tsconfig.json ./
+COPY next-env.d.ts ./
+COPY public ./public/
+COPY src ./src/
+
 RUN yarn build
 
-EXPOSE 3000
+# STAGE 2
+FROM $node_image as production
 
-CMD yarn start
+WORKDIR /app/
+
+COPY --from=builder /app/package.json /app/yarn.lock ./
+RUN yarn install --frozen-lockfile --production=true --no-progress --ignore-scripts
+
+# STAGE 3
+FROM $node_image
+
+ENV NEXT_TELEMETRY_DISABLED=1
+ENV NODE_ENV=production
+
+WORKDIR /app/
+
+COPY --from=production /app/node_modules ./node_modules
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/package.json ./
+
+EXPOSE 3000
+CMD npm run start
