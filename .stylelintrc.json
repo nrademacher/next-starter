@@ -21,5 +21,6 @@
     },
     "scss/at-rule-no-unknown": true,
     "scss/media-feature-value-dollar-variable": "always"
-  }
+  },
+  "ignoreFiles": ["src/stories/**/*"]
 }

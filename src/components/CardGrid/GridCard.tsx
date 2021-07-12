@@ -1,6 +1,6 @@
 import styles from './GridCard.module.scss';
 
-type Props = {
+export type Props = {
   link: string;
   title: string;
   text: string;
