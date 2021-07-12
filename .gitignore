@@ -35,4 +35,5 @@ yarn-error.log*
 .vercel
 
 # storybook
-src/stories/
+**/stories
+**/stories/**/*
