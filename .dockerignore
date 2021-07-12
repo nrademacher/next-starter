@@ -3,11 +3,9 @@
 **/.env
 
 **/.git
-
 **/.gitignore
 
 **/docker-compose*
-
 **/Dockerfile*
 
 **/node_modules
@@ -21,7 +19,6 @@ README.md
 .bin
 
 .git
-
 .gitignore
 
 tmp
@@ -33,11 +30,13 @@ test
 node_modules
 
 yarn-debug.log*
-
 yarn-error.log
 
 coverage/
 
 /.next/
-
 /out/
+
+**/stories
+**/stories/**/*
+**/*.story.*
