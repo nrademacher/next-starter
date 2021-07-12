@@ -1,8 +1,12 @@
-import styles from './Grid.module.scss';
+import styles from './CardGrid.module.scss';
 import { GridCard } from './GridCard';
 
-export const Grid: React.FC = () => (
-  <section className={styles.grid}>
+export const Grid: React.FC = ({ children }) => (
+  <section className={styles.grid}>{children}</section>
+);
+
+export const CardGrid: React.FC = () => (
+  <Grid>
     <GridCard
       link="https://nextjs.org/docs"
       title="Documentation &rarr;"
@@ -23,5 +27,5 @@ export const Grid: React.FC = () => (
       title="Deploy &rarr;"
       text="Instantly deploy your Next.js site to a public URL with Vercel."
     />
-  </section>
+  </Grid>
 );

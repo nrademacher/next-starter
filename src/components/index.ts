@@ -1,5 +1,5 @@
 export { Container } from './Container';
 export { Main } from './Main';
 export { Code } from './Code';
-export { Grid } from './Grid';
+export { CardGrid } from './CardGrid';
 export { Footer } from './Footer';
