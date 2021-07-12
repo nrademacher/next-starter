@@ -25,8 +25,6 @@ module.exports = {
         {
           loader: 'postcss-loader',
           options: {
-            // it "compiles" when I omit these options but I didn't confirm whether the correct postcss
-            // version is imported when omiting this.. So having it here helps me sleep at night
             implementation: require('postcss'),
             postcssOptions: {
               config: path.resolve(__dirname, '..', 'postcss.config.js'),
