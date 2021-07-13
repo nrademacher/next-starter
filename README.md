@@ -1,6 +1,6 @@
 # Next Starter
 
-A Next.js starter tooled up with industry-standard bells and whistles, including:
+An opioniated Next.js starter templated, tooled up with industry-standard bells and whistles:
 
 - TypeScript
 - SCSS modules
@@ -10,3 +10,9 @@ A Next.js starter tooled up with industry-standard bells and whistles, including
 - Husky git hooks with lint-staged for automated linting, formatting, and testing
 - Github Actions (CI, CodeQL analysis, tests)
 - Dockerfile
+
+## Usage
+
+Install dependencies with `yarn`, then `yarn dev` to start the dev server. Run `yarn build` to build (and type-check) a production build; serve it with `yarn start`.
+
+For further commands to interact with the various tooling, refer to the scripts in `package.json`.
