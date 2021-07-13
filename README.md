@@ -1,6 +1,6 @@
 # Next Starter
 
-An opioniated Next.js starter templated, tooled up with industry-standard bells and whistles:
+An opinionated Next.js starter templated with industry-standard tooling, intended mainly for medium to large-scale projects.
 
 - TypeScript
 - SCSS modules
@@ -15,4 +15,4 @@ An opioniated Next.js starter templated, tooled up with industry-standard bells 
 
 Install dependencies with `yarn`, then `yarn dev` to start the dev server. Run `yarn build` to build (and type-check) a production build; serve it with `yarn start`.
 
-For further commands to interact with the various tooling, refer to the scripts in `package.json`.
+For further commands to interact with the additional tooling, refer to the scripts in `package.json`.
