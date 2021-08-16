@@ -84,7 +84,7 @@
     "jest": "27.0.6",
     "jest-watch-typeahead": "0.6.4",
     "lint-staged": "11.1.2",
-    "postcss": "8.3.5",
+    "postcss": "8.3.6",
     "postcss-loader": "4.2.0",
     "prettier": "2.3.2",
     "sass-loader": "10.1.1",
