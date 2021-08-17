@@ -42,7 +42,7 @@
     "open-color": "1.8.0",
     "react": "latest",
     "react-dom": "latest",
-    "sass": "1.37.5"
+    "sass": "1.38.0"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
