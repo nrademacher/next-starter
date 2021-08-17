@@ -22,7 +22,7 @@ specifiers:
   autoprefixer: 10.3.1
   babel-jest: 27.0.6
   babel-plugin-istanbul: 6.0.0
-  css-loader: 5.2.0
+  css-loader: ^5
   cypress: 7.7.0
   eslint: 7.32.0
   eslint-config-airbnb: 18.2.1
@@ -86,7 +86,7 @@ devDependencies:
   autoprefixer: 10.3.1_postcss@8.3.6
   babel-jest: 27.0.6_@babel+core@7.14.6
   babel-plugin-istanbul: 6.0.0
-  css-loader: 5.2.0
+  css-loader: 5.2.7
   cypress: 7.7.0
   eslint: 7.32.0
   eslint-config-airbnb: 18.2.1_82379a8df6f95f98f085ae4ba6a55426
@@ -6789,14 +6789,12 @@ packages:
       webpack: 4.46.0
     dev: true
 
-  /css-loader/5.2.0:
-    resolution: {integrity: sha512-MfRo2MjEeLXMlUkeUwN71Vx5oc6EJnx5UQ4Yi9iUtYQvrPtwLUucYptz0hc6n++kdNcyF5olYBS4vPjJDAcLkw==}
+  /css-loader/5.2.7:
+    resolution: {integrity: sha512-Q7mOvpBNBG7YrVGMxRxcBJZFL75o+cH2abNASdibkj/fffYD8qWbInZrD0S9ccI6vZclF3DsHE7njGlLtaHbhg==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       webpack: ^4.27.0 || ^5.0.0
     dependencies:
-      camelcase: 6.2.0
-      cssesc: 3.0.0
       icss-utils: 5.1.0_postcss@8.3.6
       loader-utils: 2.0.0
       postcss: 8.3.6
