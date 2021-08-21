@@ -43,7 +43,6 @@
   },
   "dependencies": {
     "next": "latest",
-    "open-color": "1.8.0",
     "react": "latest",
     "react-dom": "latest",
     "sass": "1.38.0"
