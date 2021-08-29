@@ -16,13 +16,13 @@
   ],
   "scripts": {
     "dev": "next",
-    "build": "pnpm type-check && next build",
+    "build": "yarn type-check && next build",
     "start": "next start",
     "type-check": "tsc",
     "test:unit": "jest --passWithNoTests",
-    "test:e2e": "pnpm serve:test:e2e 'cypress open'",
-    "test:e2e:headless": "pnpm serve:test:e2e 'cypress run'",
-    "serve:test:e2e": "start-server-and-test 'pnpm start' http://localhost:3000",
+    "test:e2e": "yarn serve:test:e2e 'cypress open'",
+    "test:e2e:headless": "yarn serve:test:e2e 'cypress run'",
+    "serve:test:e2e": "start-server-and-test 'yarn start' http://localhost:3000",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|jsx|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "format:style": "prettier --ignore-path .gitignore \"src/**/*.+(css|scss)\" --write",
@@ -32,13 +32,13 @@
   },
   "lint-staged": {
     "src/**/*.{ts,js,jsx,tsx}": [
-      "pnpm lint --fix",
-      "pnpm format",
-      "pnpm test:unit"
+      "yarn lint --fix",
+      "yarn format",
+      "yarn test:unit"
     ],
     "src/**/*.{css,scss,module.scss}": [
       "stylelint --fix",
-      "pnpm format:style"
+      "yarn format:style"
     ]
   },
   "dependencies": {

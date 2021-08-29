@@ -1,4 +1,4 @@
-ARG node_version=14.17.0
+ARG node_version=14.17.5
 ARG node_image=node:${node_version}-alpine
 
 # STAGE 1
