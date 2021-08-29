@@ -1,6 +1,6 @@
 # Next Starter
 
-An opinionated Next.js starter templated with industry-standard tooling, intended mainly for medium to large-scale projects.
+An opinionated Next.js starter template, aiming to provide a starting point for scalable, professional-grade front-end projects.
 
 - TypeScript
 - SCSS modules
