@@ -13,7 +13,7 @@ An opinionated Next.js starter templated with industry-standard tooling, intende
 
 ## Usage
 
-**Note:** [pnpm](https://pnpm.io/) is used for this project because it has quite a lot of dependencies, so I wanted the fastest package manager available.
+**Note:** [pnpm](https://pnpm.io/) is used for this project because it has quite a lot of dependencies, so I wanted the fastest/most efficient package manager available.
 
 Install dependencies with `pnpm install`, then `pnpm dev` to start the dev server. Run `pnpm build` to build (and type-check) a production build; serve it with `pnpm start`.
 
