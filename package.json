@@ -31,12 +31,12 @@
     "build-storybook": "build-storybook"
   },
   "lint-staged": {
-    "./**/*.{ts,js,jsx,tsx}": [
+    "src/**/*.{ts,js,jsx,tsx}": [
       "pnpm lint --fix",
       "pnpm format",
       "pnpm test:unit"
     ],
-    "*.{css, scss}": [
+    "src/**/*.{css,scss,.module.scss}": [
       "stylelint --fix",
       "pnpm format:style"
     ]
