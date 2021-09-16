@@ -47,7 +47,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "sass": "1.38.2"
+    "sass": "1.41.0"
   },
   "devDependencies": {
     "@babel/core": "7.15.0",
