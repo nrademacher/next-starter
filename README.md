@@ -1,4 +1,4 @@
-# Next Starter
+# Next.js Starter
 
 An opinionated Next.js starter template, aiming to provide a starting point for scalable, professional-grade frontends.
 
