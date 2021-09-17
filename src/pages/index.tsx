@@ -1,13 +1,7 @@
-import { Container, Main, Counter, CardGrid, Footer } from '@/components';
-
 export default function Home() {
   return (
-    <Container>
-      <Main>
-        <Counter />
-        <CardGrid />
-      </Main>
-      <Footer />
-    </Container>
+    <h1 className="grid place-items-center min-h-screen text-7xl text-blue-7">
+      Hello, world!
+    </h1>
   );
 }
