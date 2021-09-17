@@ -9,9 +9,8 @@
     "cypress",
     "jest",
     "nextjs",
-    "redux",
     "starter",
-    "storybook",
+    "tailwindcss",
     "template",
     "typescript"
   ],
