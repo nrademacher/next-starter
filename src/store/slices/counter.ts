@@ -8,7 +8,7 @@ import {
 } from '@reduxjs/toolkit';
 
 import type { AppState, AppThunk } from '../store';
-import { fetchCount } from '../../utils/fetchCount';
+import { fetchCount } from '@/utils';
 
 export interface CounterState {
   value: number;
