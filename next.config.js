@@ -22,8 +22,6 @@ module.exports = {
       });
     });
 
-    config.resolve.alias['@'] = path.join(__dirname, 'src');
-
     return config;
   },
 };
