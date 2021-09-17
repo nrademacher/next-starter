@@ -16,8 +16,7 @@
     "baseUrl": "./src",
     "types": ["jest", "cypress"],
     "paths": {
-      "@/*": ["./*"],
-      "@/components/**/*": ["./components/**/*"]
+      "@/*": ["./*"]
     }
   },
   "exclude": ["node_modules"],
