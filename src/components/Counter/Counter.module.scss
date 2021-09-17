@@ -22,7 +22,8 @@
   margin-top: 2px;
 }
 
-.button {
+.button,
+.asyncButton {
   appearance: none;
   background: none;
   font-size: 1rem;
@@ -35,6 +36,10 @@
   transition: all 0.15s;
 }
 
+.asyncButton {
+  position: relative;
+}
+
 .textbox {
   font-size: 24px;
   padding: 0.25em;
@@ -45,19 +50,10 @@
   border-radius: 10px;
 }
 
-.button:hover {
+.button:hover,
+.asyncButton:hover {
   border: 1px solid #0070f3;
   color: #0070f3;
-}
-
-// .button:active {
-//   background-color: rgba(112, 76, 182, 0.2);
-// }
-
-.asyncButton {
-  // stylelint-disable-next-line property-no-unknown
-  composes: button;
-  position: relative;
 }
 
 .asyncButton:after {
