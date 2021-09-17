@@ -38,6 +38,7 @@
       }
     ],
     "quotes": "off",
+    "no-param-reassign": "off",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {

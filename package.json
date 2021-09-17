@@ -44,9 +44,11 @@
     ]
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-redux": "^7.2.5",
     "sass": "1.41.0"
   },
   "devDependencies": {
