@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Container, Main, CardGrid, Footer } from '../components';
+import { Counter, Container, Main, CardGrid, Footer } from '../components';
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
       <Container>
         <Main>
+          <Counter />
           <CardGrid />
         </Main>
         <Footer />

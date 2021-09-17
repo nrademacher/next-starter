@@ -1,5 +1,5 @@
 module.exports = {
-  roots: ['<rootDir>'],
+  roots: ['<rootDir>/src'],
   testEnvironment: 'jsdom',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'json', 'jsx'],
   testPathIgnorePatterns: [
