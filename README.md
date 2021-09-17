@@ -3,6 +3,7 @@
 An opinionated Next.js starter template, aiming to provide a starting point for scalable, professional-grade frontends.
 
 - TypeScript
+- Redux Toolkit
 - SCSS modules
 - Storybook
 - Linting: ESLint, stylelint, commitlint
