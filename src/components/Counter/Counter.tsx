@@ -1,7 +1,7 @@
 // https://github.com/vercel/next.js/tree/canary/examples/with-redux
 
 import { useState } from 'react';
-import { useAppDispatch, useAppSelector } from '../../hooks';
+import { useAppDispatch, useAppSelector } from '@/hooks';
 import {
   decrement,
   increment,
@@ -9,7 +9,7 @@ import {
   incrementAsync,
   incrementIfOdd,
   selectCount,
-} from '../../store/slices/counter';
+} from '@/store/slices/counter';
 import styles from './Counter.module.scss';
 
 export function Counter() {

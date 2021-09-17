@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Counter, Container, Main, CardGrid, Footer } from '../components';
+import { Counter, Container, Main, CardGrid, Footer } from '@/components';
 
 export default function Home() {
   return (
