@@ -2,7 +2,7 @@
 
 An opinionated Next.js starter template, aiming to provide a solid starting point for scalable, professional-grade frontends.
 
-It includes packages, setups, and configurations for:
+It includes packages, setups, and configs for:
 
 - TypeScript
 - SCSS modules
@@ -11,7 +11,7 @@ It includes packages, setups, and configurations for:
 - Testing: Jest for component-based unit testing and Cypress for end-to-end testing
 - Husky git hooks with lint-staged for automated linting, formatting, and testing
 - Github Actions (CI, CodeQL analysis, tests)
-- Docker: mult-stage Dockerfile plus `.dockerignore`
+- Docker: multi-stage Dockerfile plus `.dockerignore`
 
 ## Usage
 
