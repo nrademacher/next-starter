@@ -3,7 +3,6 @@
 An opinionated Next.js starter template, aiming to provide a solid starting point for scalable, professional-grade frontends.
 
 - TypeScript
-- Redux Toolkit
 - SCSS modules
 - Storybook
 - Linting: ESLint, stylelint, commitlint
@@ -20,6 +19,8 @@ For further commands to interact with the additional tooling, refer to the scrip
 
 ## Notes
 
-* By default, Jest unit test files must be named `[filename].test.ts` or `[filename].test.tsx`. The `.spec.` suffix is reserved for Cypress e2e/integratiom test files.
-* By default, Storybook story files must be named `[filename].story.tsx`. They should be collocated with their respective component.
-* For Storybook, Next.js, and SCSS modules to work together the following dev dependencies must not be changed from the versions specified in `package.json`: `css-loader`, `postcss-loader`, `sass-loader`, `style-loader` (Please let me know if you know a better workaround!)
+By default, Jest unit test files must be named `[filename].test.ts` or `[filename].test.tsx`. The `.spec.` suffix is reserved for Cypress e2e/integratiom test files.
+
+By default, Storybook story files must be named `[filename].story.tsx`. They should be collocated with their respective component.
+
+For Storybook, Next.js, and SCSS modules to work together the following dev dependencies must not be changed from the versions specified in `package.json`: `css-loader`, `postcss-loader`, `sass-loader`, `style-loader` (Please let me know if you know a better workaround!)
