@@ -56,7 +56,7 @@
     "@cypress/code-coverage": "3.9.11",
     "@storybook/addon-actions": "^6.3.7",
     "@storybook/addon-essentials": "^6.3.9",
-    "@storybook/addon-links": "^6.3.8",
+    "@storybook/addon-links": "^6.3.9",
     "@storybook/addon-postcss": "2.0.0",
     "@storybook/react": "^6.3.8",
     "@testing-library/cypress": "8.0.1",
