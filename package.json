@@ -54,7 +54,7 @@
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
     "@cypress/code-coverage": "3.9.11",
-    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-actions": "^6.4.17",
     "@storybook/addon-essentials": "^6.3.9",
     "@storybook/addon-links": "^6.3.9",
     "@storybook/addon-postcss": "2.0.0",
